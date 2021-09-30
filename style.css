@@ -1,0 +1,68 @@
+body {
+  background-color: gray;
+}
+
+main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:3rem; 
+}
+
+
+input {
+    margin: 2rem;
+    text-align: center;
+    padding: 0.7rem 3rem 0.7rem 3rem;
+    border: 1px solid #7c3aed;
+    font-weight: bold;
+   } 
+
+
+button {
+    margin-top:2rem;
+    background-color:  wheat;
+    width: 15.6rem;
+    border: none;
+    padding:1rem;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+
+  
+    padding: .75rem 1rem;
+    border-radius: .5rem;
+    transition: .3s;
+    }
+
+   
+   
+    #outputbox {
+        margin-top: 2rem ;
+    }  
+
+
+
+
+/* tabal */
+.cashtable{
+    width: 80%;
+    text-align: justify;
+    border-collapse: collapse;
+    margin: auto;
+  }
+  
+  .cashtable caption {
+    margin: 1rem auto;
+    font-size: large;
+    font-weight: 500;
+  }
+  
+  th,
+  td {
+    border: 2px solid black;
+    width: 0%;
+    border-collapse: collapse;
+    padding: 0.4rem;
+  }
